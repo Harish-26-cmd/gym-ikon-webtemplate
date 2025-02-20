@@ -1,0 +1,412 @@
+/* Media Queries for Mobile Devices (up to 768px) */
+@media only screen and (max-width: 768px) {
+
+    /* Global Adjustments */
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Cover Page */
+    #cover-page {
+        /* height: 100vh;
+        background-position: center; */
+
+        background: url(images/aboutpage.png) no-repeat center center;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cover-logo {
+        width: 100px;
+        height: 10vh;
+        top: 10px;
+        left: 10px;
+    }
+
+    .cover-text {
+        padding-top: 150px;
+    }
+
+    .cover-text h1 {
+        font-size: 2rem;
+        font-family: "Monoton", serif;
+        word-spacing: 0.5rem;
+    }
+
+    .cover-text p {
+        font-size: 0.8rem;
+        font-style: italic;
+        margin-top: 1rem;
+    }
+
+    .cover-button {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.01rem;
+        overflow: hidden;
+    }
+
+    .cover-button a {
+        width: 120px;
+        font-size: 12px;
+    }
+
+    /* Navigation Menu */
+    #sidenav {
+        width: 170px;
+    }
+
+    #menubtn img {
+        width: 50px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-size: 1rem;
+        color: aliceblue;
+        transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+        color: yellow;
+    }
+
+    /* About Us Section */
+    #About-us {
+        padding: 10px;
+    }
+
+    .about {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .trainer-headeading-text h1 {
+        font-size: 1.4rem;
+        margin-left: 0;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+
+    .about-content {
+        padding: 20px;
+    }
+
+    .about h2 {
+        font-size: 1.5rem;
+    }
+
+    .about p {
+        font-size: 0.7rem;
+        
+    }
+
+
+    .about-box {
+        background-color: #E44008;
+        color: white;
+        padding: 10px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1px;
+        border-radius: 20px;
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .stat-item {
+        flex: 1 1 150px;
+        text-align: center;
+    }
+
+    .stat-number {
+        font-size: 1.3rem;
+        margin-bottom: 0; 
+    }
+    
+    .stat-item p {
+        font-size: 0.7rem;
+        margin-top: -20px; 
+    }
+
+
+    .about-button {
+        margin-left: 4.5rem;
+        text-align: center;
+        margin-top: -50px;
+    }
+
+
+    /* Schedule Section */
+    #Timeings-and-services {
+        background: url(images/fourthpage.png);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        padding: 1.5rem 2rem;
+    }
+
+    .time-service {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* height: 100vh; */
+        width: 5%;
+        position: relative;
+        gap: 1rem;
+        position: relative;
+        margin-left: 7.5rem;
+        /* margin-top:10rem; */
+    }
+
+    .opening-box {
+        background-color: #E44008;
+        border: 3px solid gold;
+        width: 16rem;
+        text-align: center;
+        position: relative;
+        border-radius: 15px;
+        margin-top: 0.5rem;
+        /* padding: 15px 0; */
+    }
+
+    .opening-box h1 {
+        color: #4169E1;
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .opening-box h2 {
+        color: #DC143C;
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    .opening-box p {
+        color: black;
+        padding: 5px;
+        font-size: 0.7rem;
+    }
+
+    .timings-head {
+        background-color: white;
+        border-radius: 25px;
+        padding: 10px 0;
+        width: 10rem;
+        margin-bottom: 5px;
+        justify-content: center;
+        position: relative;
+        margin-left: 0.4rem;
+    }
+
+    .timings-head h1 {
+        font-size: 1rem;
+    }
+
+    .timing-content {
+        background-color: white;
+        border-radius: 25px;
+        width:220px;
+        margin-left:-1.5rem;
+    }
+
+    .open1 {
+        background-color: rgb(228 74 133);
+        background-size: cover;
+        position: relative;
+        padding: 0 0;
+        padding: 20px 30px;
+        margin-left: 8.5px;
+        width:14.5rem;
+    }
+
+    .open2 {
+        background-color: rgb(228 74 133);
+        background-size: cover;
+        position: relative;
+        padding: 0 0;
+        padding: 20px 30px;
+        margin-left: 8.5px;
+        width:14.5rem;
+
+    }
+
+    .open2 {
+        font-size: 24px;
+    }
+
+    /* Reviews Section */
+    #reviews {
+        height: auto;
+        padding: 20px;
+    }
+
+    .review-head {
+        position: relative;
+        padding-top:3rem;
+        font-size: 1rem;
+    }
+    .review-head p{
+        font-size: 0.7rem;
+    }
+
+    #scroling {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: black;
+        position:relative;
+        
+    }
+    
+    .wrapper {
+        overflow: hidden;
+        width: 100%;
+        background-color: black;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        position:relative;
+        margin-top:40px;
+        margin-left:10px;
+    }
+    
+    .container {
+        display: flex;
+        animation: scroll 10s linear infinite;
+    }
+    
+    .item {
+        flex: 0 0 auto;
+        margin-right: 10px;
+        background-color:rgba(79, 79, 79, 0.4);
+        color: #fff;
+        border-radius: 5px;
+        text-align: center;
+        min-width: 0;
+        padding:1px;
+    }
+    .item p{
+        font-size:0.6rem;
+        color:gold;
+    }
+    .item h5{
+        padding:20px;
+    }
+    .item h2{
+        font-size:1rem;
+        padding:20px;
+    }
+    
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+    
+
+    /* Pricing Section */
+    #pricing {
+        height: auto;
+        padding: 20px;
+    }
+
+    .price {
+        margin-top:50px;
+        width: 100%;
+        margin-left: 0;
+        height: auto;
+        padding:15px;
+    }
+
+    .strength-cardio {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .price-details {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+    }
+    .price-details h2{
+        font-size:1rem;
+    }
+    .price-details p{
+        font-size:0.9rem;
+    }
+    .price-head{
+        font-size:0.6rem;
+    }
+    .price-head p{
+        font-size:0.7rem;
+    }
+    .join-button {
+        margin-top: -50px;
+        margin-left: 50px;
+        padding:10px;
+        justify-content: space-around;
+        color: antiquewhite;
+    }
+    /* Contact Section */
+    #contact {
+        height: auto;
+        padding: 20px;
+    }
+
+    .contact-head h1 {
+        font-size: 1.6rem;
+        padding: 50px 0;
+    }
+
+    .contact-details {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .contact-box {
+        width: 100%;
+        max-width: 300px;
+        height:80px;
+    }
+    .contact-box p{
+        font-size: 0.6rem;
+    }
+    .contact-box i{
+        font-size: 2rem;
+    }
+
+    /* Footer */
+    #footer {
+        padding: 20px 0;
+    }
+
+    .gym-name h1 {
+        font-size: 1rem;
+    }
+
+    .social-media a {
+        font-size: 24px;
+    }
+    .copyright p{
+        color:#fff;
+        font-size: 0.5rem;
+        text-align:center;
+    }
+}
